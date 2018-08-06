@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <CheckBox
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:id="@+id/checkBoxAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android" />
+    <CheckBox
+        android:layout_below="@id/checkBoxAndroid"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:id="@+id/checkBoxiOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iOS" />
+    <CheckBox
+        android:layout_below="@id/checkBoxiOS"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:id="@+id/checkBoxPHP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHP" />
+
+    <RadioGroup
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/checkBoxPHP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:textSize="30sp"
+            android:text="Toan"
+            android:id="@+id/radiobuttonToan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="30sp"
+            android:text="Ly"
+            android:id="@+id/radiobuttonLy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="30sp"
+            android:text="Hoa"
+            android:id="@+id/radiobuttonHoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+</RelativeLayout>
